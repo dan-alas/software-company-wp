@@ -33,5 +33,18 @@
     height: 38rem;
     background-image: url(/src/img/hero-inicio.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.subtitulo::after {
+  content: "";
+  display: block;
+  width: 4.7rem;    
+  height: 0.25rem;    
+  background-color: var(--color-rojo);
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.125rem;
 }
