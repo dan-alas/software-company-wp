@@ -40,7 +40,7 @@
 
 .hero{
     height: 38rem;
-    background-image: url(/src/img/hero-inicio.png);
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -56,4 +56,11 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.125rem;
+}
+
+/* Opcional: controla que la imagen no crezca demasiado */
+.img-limitada {
+  max-height: 15rem; /* Ajustá según el alto de tu contenido */
+  width: auto;
+  object-fit: cover;
 }
