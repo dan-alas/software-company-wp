@@ -1,0 +1,37 @@
+:root{ /* Variables  */
+    --header-color: #1E1B2C;
+    --color-rojo: #F7445C;
+}
+
+/* Utilidades */
+
+.bg-header {
+    background-color: var(--header-color);
+}
+
+.color-red{
+    color: var(--color-rojo);
+}
+
+.bg-red {
+    background-color: var(--color-rojo);
+}
+
+.active{
+    color: var(--color-rojo);
+}
+
+.navbar-toggler-white {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-toggler-white .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.hero{
+    height: 38rem;
+    background-image: url(/src/img/hero-inicio.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
